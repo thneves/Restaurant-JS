@@ -3,13 +3,19 @@ let menu = () => {
   content.classList.add('content');
 
   const menu_div = document.createElement('div');
+  const menu_title = document.createElement('h2');
+  menu_title.classList.add('menu_title')
+  menu_title.innerHTML = 'Our Foods'
+
   menu_div.classList.add('menu_div')
   menu_div.innerHTML = `
     <div class="option1"></div>
     <div class="option2"></div>
     <div class="option3"></div>
   `
+  content.appendChild(menu_title);
   content.appendChild(menu_div);
+
 
   document.body.appendChild(content);
   document.body.classList.toggle('bg-menu');
