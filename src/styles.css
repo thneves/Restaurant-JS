@@ -25,7 +25,7 @@
 
 .nav {
   list-style: none;
-  margin: 10px 200px 20px 0px;
+  margin: 10px 200px 20px 0;
   text-align: right;
 }
 
@@ -36,10 +36,11 @@
   font-variant: small-caps;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: none;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
-.title, .copy {
+.title,
+.copy {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-variant: small-caps;
@@ -59,7 +60,8 @@
 
 /* MENU */
 
-.menu_title, .contact_title {
+.menu_title,
+.contact_title {
   background: whitesmoke;
   text-align: center;
   font-size: 40px;
@@ -72,7 +74,9 @@
   justify-content: center;
 }
 
-.option1, .option2, .option3 {
+.option1,
+.option2,
+.option3 {
   width: 300px;
   height: 300px;
   margin: 0 30px;
