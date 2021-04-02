@@ -12,7 +12,7 @@ let contact = () => {
  
   document.body.appendChild(content);
   content.appendChild(card_contact);
-  document.body.classList.add('bg-contact')
+  document.body.classList.toggle('bg-contact')
 }
 
 export default contact;

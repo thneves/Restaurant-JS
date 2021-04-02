@@ -14,6 +14,7 @@ let home = () => {
   content.appendChild(copy);
 
   document.body.appendChild(content);
+  document.body.classList.toggle('bg-home')
 }
 
 export default home;

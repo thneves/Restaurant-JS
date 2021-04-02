@@ -1,7 +1,7 @@
 let menu = () => {
   const content = document.getElementById('content');
   content.classList.add('content');
-  
+
   const menu_div = document.createElement('div');
   menu_div.classList.add('menu_div')
   menu_div.innerHTML = `
@@ -12,7 +12,7 @@ let menu = () => {
   content.appendChild(menu_div);
 
   document.body.appendChild(content);
-  document.body.classList.add('body-bg-menu');
+  document.body.classList.toggle('bg-menu');
 }
 
 export default menu;

@@ -1,5 +1,3 @@
-// const body = document.querySelector('body');
-document.body.classList.add('body-bg-home')
 const header = document.createElement('header');
 
 const nav = document.createElement('nav');
