@@ -3,11 +3,27 @@
   box-sizing: border-box;
 }
 
-.home-content {
+.body-bg {
   background: url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  position: relative;
+}
+
+.nav {
+  list-style: none;
+  position: absolute;
+  right: 80px;
+  margin: 10px 200px 20px 0px;
+}
+
+.tabs {
+  color: whitesmoke;
+  font-size: 22px;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  padding: 0px 20px;
 }
 
 .title, .copy {
@@ -16,6 +32,7 @@
 }
 
 .title {
+  margin-top: 200px;
   font-size: 60px;
   padding: 10px 10px;
 }
