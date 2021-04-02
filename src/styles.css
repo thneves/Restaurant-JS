@@ -3,17 +3,32 @@
   box-sizing: border-box;
 }
 
-.body-bg {
+.body-bg-home {
   background: url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
   background-size: cover;
   position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.body-bg-menu {
+  background: url(https://images.unsplash.com/photo-1552566626-52f8b828add9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+}
+
+.bg-contact {
+  background: url(https://images.unsplash.com/photo-1594440189456-db2103a5c647?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+}
+
+.content {
+  margin-top: 200px;
 }
 
 .nav {
   list-style: none;
-  position: absolute;
-  right: 80px;
   margin: 10px 200px 20px 0px;
+  text-align: right;
 }
 
 .tabs {
@@ -28,15 +43,61 @@
 
 .title, .copy {
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
 }
 
 .title {
-  margin-top: 200px;
-  font-size: 60px;
+  margin-top: 20px;
+  font-size: 50px;
   padding: 10px 10px;
+  background-color: white;
 }
 
 .copy {
-  font-size: 22px;
+  font-size: 32px;
+  font-style: italic;
+}
+
+/* MENU */
+
+.menu_div {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.option1, .option2, .option3 {
+  width: 300px;
+  height: 300px;
+  margin: 0 30px;
+  border: 4px solid white;
+  text-align: center;
+}
+
+.option1 {
+  background: url(https://images.unsplash.com/photo-1548029960-695d127f4543?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+  background-size: cover;
+}
+
+.option2 {
+  background: url(https://images.unsplash.com/photo-1548811226-4f26123652c3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80);
+  background-size: cover;
+}
+
+.option3 {
+  background: url(https://images.unsplash.com/photo-1575464362889-408fe193b18f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80);
+  background-size: cover;
+}
+
+/* CONTACT */
+
+.card_contact {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border: 4px solid black;
+  margin: 300px auto 0 auto;
+  background-color: whitesmoke;
+  color: rgba(0, 0, 0, 0.739);
 }

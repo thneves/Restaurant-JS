@@ -1,5 +1,7 @@
-const body = document.querySelector('body');
-body.classList.add('body-bg')
+// const body = document.querySelector('body');
+document.body.classList.add('body-bg-home')
+const header = document.createElement('header');
+
 const nav = document.createElement('nav');
 nav.classList.add('nav');
 nav.innerHTML = `
@@ -7,4 +9,5 @@ nav.innerHTML = `
   <a href="#" class="tabs" id="menu">Menu</a>
   <a href="#" class="tabs" id="contact">Contact</a>
   `;
-body.appendChild(nav);
+header.appendChild(nav);
+document.body.appendChild(header);

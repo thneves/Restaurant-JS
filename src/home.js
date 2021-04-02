@@ -1,6 +1,6 @@
-function component() {
+let home = () => {
   const content = document.getElementById('content');
-  content.classList.add('home-content');
+  content.classList.add('content');
 
   const title = document.createElement('h1');
   title.classList.add('title');
@@ -8,10 +8,13 @@ function component() {
 
   const copy = document.createElement('h4');
   copy.classList.add('copy');
-  copy.innerHTML = 'Unique experience, every single time'
+  copy.innerHTML = 'Unique experience, every time';
 
   content.appendChild(title);
   content.appendChild(copy);
 
-  return content;
+  document.body.appendChild(content);
 }
+
+export default home;
+
