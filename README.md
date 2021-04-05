@@ -36,7 +36,7 @@ In the terminal, Run the following commands.
 - `cd Restaurant-JS`
 - run npm install
 - run npx webpack
-- Then open the `index.html` file inside the `dist` folder using a browser.
+- run `npm start` to open the website.
 
 ## Author
 
