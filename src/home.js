@@ -1,10 +1,10 @@
-let home = () => {
+const home = () => {
   const content = document.getElementById('content');
   content.classList.add('content');
 
   const title = document.createElement('h1');
   title.classList.add('title');
-  title.innerHTML = 'The Tower'
+  title.innerHTML = 'The Tower';
 
   const copy = document.createElement('h4');
   copy.classList.add('copy');
@@ -14,8 +14,7 @@ let home = () => {
   content.appendChild(copy);
 
   document.body.appendChild(content);
-  document.body.classList.toggle('bg-home')
-}
+  document.body.classList.toggle('bg-home');
+};
 
 export default home;
-

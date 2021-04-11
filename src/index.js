@@ -1,4 +1,4 @@
-import './styles.css'
+import './styles.css';
 import './tabs';
 import home from './home';
 import menu from './menu';
@@ -20,4 +20,4 @@ document.getElementById('menu').addEventListener('click', () => {
 document.getElementById('contact').addEventListener('click', () => {
   reset();
   contact();
-})
+});
